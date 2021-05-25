@@ -1,0 +1,26 @@
+Week 2:
+Defined project objectives, user stories and began work on proposal.
+
+Week 3:
+Work on proposal - defining system architecture and general style editing for cohesiveness
+
+Week 4:
+Implemented item structure and most item-related functions in backend (add, edit, remove). Spent time acquainting with React since we knew we were going to start working on more frontend-focused functionality from here on out.
+
+Week 5:
+Adjustments to item structure, adding new data fields for more advanced search & recommend functions, cleared up a duplicate set of global functions that somehow found its way in
+
+Week 6:
+Began more frontend-focused work, beginning with basic chatbot functionality (this took some time, extending into next week as I learned how to use the chosen module and work within its limitations). Assistance with various bug-fixing
+
+Week 7:
+Finished up basic chatbot functionality, allowing it to hide as a pop-up speech bubble in the corner of pages, and with basic FAQ answers.
+
+Week 8:
+Implemented some slightly more advanced chatbot functionality, including finding a built-in option for text-to-speech (but no way for the user to toggle during runtime :( ) and including it directly in the jsx for Shop page instead of the general page template - this way it only shows up on the relevant page. More various bug-fixing assistance.
+
+Week 9:
+Finally implemented all necessary chatbot functions, pending some bugs that require fixing before final submission (item recommendation returns the correct item for the *previous* search, due to React's setState updating asynchronously grr)
+
+Week 10:
+Miraculously fixed chatbot bugs literally just in time for final demo! Working on final report, assistance debugging general structure, installation testing & chasing down/fixing issues with installation on different systems

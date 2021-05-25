@@ -1,0 +1,125 @@
+17/02/21: 
+- I had completed my first tutorial/lab of COMP3900, created a group named "Jiraffes"
+- We planned out the initial technologies to use as per everyone's comfort zone, 
+  These were using HTML, CSS and JS with React for the front end
+  Also using Python and Flask for the web back end 
+  Finally using PostgreSQL and psycopg2 for the database
+
+22/02/21: 
+- Settled on our place of meeting and standups - discord
+- Created a server on discord for meetings 
+- Had a brief discussion of what User stories format we would use, provided examples
+  (We had to think of some to add by the next tutorial)
+
+24/02/21:
+- Jira website was created and set-up for use 
+- Thought of 8+ project objectives that we would incorporate into our website 
+- Group member(s) decided on word editor to use for the proposal with a template
+- Started creating our initial User stories which matched the objectives
+- Divided up the proposal into 4 balanced sections to be completed by each member
+
+03/03/21:
+- Met up with the group before the tutorial to have a standup to see how things were going 
+- Everyone was on track and nearly finished with their assigned work
+
+06/03/21:
+- Met up with the group right before submission to check if everything was complete 
+- Made final changes i.e. layers diagram, user stories descriptions, etc. 
+
+08/03/21 -- 10/03/21:
+- Completed initial setup for everyone, implemented the ability to serve the frontend from 
+  the python flask backend
+- Created the database .json file for items, users, carts, and created the global_funcs stubs 
+  to hint how to use the "pseudo" database
+
+11/03/21 -- 13/03/21: 
+- Had the standup to demonstrate the use of the backend, how to serve front end, basic walk through 
+- Created the google docs file to act as a documentation for sprint 1's user stories and divided work
+  for frontend and backend engineers through the file 
+
+14/03/21 -- 15/03/21: 
+- Once the basic auth functions were completed by Sam, I tested them with simple tests in the backend, fixed 
+  any bugs/errors which occurred / made the backend suitable for frontend use
+- Created the NavBar component in ReactJS which basically added as the link displayer to other pages 
+- Used render_template from flask to create a html page acting as a UI for authentication in the backend,
+  this didnt use any react but rather html files and premade styles CSS found online 
+
+16/03/21: 
+- Finished up sign up page similar to login with error handling
+- Able to access user ID in the front end through a poor method in the search query string
+- Experimented with VENV python to make backend serving easier
+- Attempted connection of Justin's frontend work with mine
+- 
+
+17/03/21: 
+- Finally got an extent of Justin's front end CSS/HTML file to work with my links in the NavBar
+- No persistence of user information as we barely used react besides for the NavBar 
+- Met up before the demo to make sure everyone was kinda prepared and that we could pair program to finished
+  any bugs/errors which thankfully were solved last minute xD
+- Group Demo A, everyone was present. Justin presented the Jira work whilst I demo'd the website, 
+  we were kinda unprepared because we didnt practice for the demo rather just winged it. Some website 
+  pathing was not working so i had to load up the individual html page without the styles :(
+  
+18/03/21: 
+- Group Retrospective A: We had meetup to fill out our retro A, everyone was present. We noted what went 
+  wrong, what couldve been imprommived and assigned members for accountability. 
+
+19/03/21 -- 20/03/21: 
+- Complete revamp of the current progress, deleted old repo --> made new branch to connect frontend and backend 
+  more efficiently using a more later tutorial than the previous (2 years!). 
+- Used React more in depth to use the python flask api to access backend functionality, login/signup functions are completed 
+  w.r.t to React now instead of ONLY Html-forms file as done prior. Styling has now been assigned to Justin
+- Created the items/shop page, made an API call to the backend to retrieve the items data 
+- Made some example items/products, assigned IDs to them, read up on the items functionality done by Alex
+
+21/03/21: 
+- STANDUP 3:00pm to discuss the new project creation and how it differs to the previous setup 
+- Finally added items display functionality via backend API call using fetch in JS 
+
+24/03/21: 
+- Implemented redux into the project for users (will later do cart, items, etc.)
+- Deleted old setup which was saved as a dir in the new setup (had to confirm with other members)
+- First major merge to add some front end created by Justin into master branch 
+- Had a meeting to discuss the new and improved UI with React and redux, then split work for the next section/sprint
+
+27/03/21: 
+- Sales data creation from imported library `recharts`
+- Fixed some bugs on null user/admins on other pages
+- Created a brand new logo for the website Jiraffe Store 
+- Made justin's style work with my contributions (error debugging)
+- Pair programming with the group to get rid of any bugs through rigorous testing
+- Got a bunch of features up and running for the website; cart, add items, more info, remove items, etc.
+
+
+03/04/21: 
+- Changed document title and favicon, more design and CSS changes went underway i.e. popup, cart, etc. 
+- Retouching of the backend database, changed up some data fields in items, users, etc. 
+- Thought up of an initial recommendation system which at the current stage is just a recommendation value associated with an item 
+- Search function and search history (though buggy) was added, merged in justin's work in checkout and delivery + search history delete
+- 
+
+07/04/21:
+- Practiced demo in discord with the entire group + group debug session to get rid of any bugs
+- Merged all of our groups work into master for demo presentation 2
+- Had our Retrospective B the same day right after the demo, used the shared word document created by justin to list down things to improve on,
+  what went well, etc. 
+- Workload division for the next and final demo was drafted in google docs
+
+14/04/21:
+- Group meeting to discuss progress and upcoming workloads; report, demo, software quality --> everyone assigned some piece of all THAT
+- Created a basic filter system for the items page completing one of the user stories 
+- Random search function now works, another user story completed
+- Resolve merge conflicts from justin's branch into master
+
+18/04/21:
+- Another group meeting to discuss progress and how everyone is doing with their assigned work, apparent on discord/google doc work division
+- Finally got sign out to work, was as simple as redirecting to the login page, works at every page after debugging null errors 
+- Fixed up the directory, still had alot of useless previous setup files (for safe keeping), edited package.json scripts, frontend compiles without warnings now 
+
+19/04/21: 
+- Report work by me: 
+  1. Design & Architecture - I showed the project directory structure and the main key files in /api/ and /src/ AND included an updated layer diagram
+  2. Start on implementation challenges - Included the main issues that I personally came across i.e. Connection between frontend and backend, 
+     state management and Page linking & connectivity. 
+  3. User documentation and manual - How to build and setup the system, works for myself and a member so far. 
+  4. Bibliography - Just some yt links for react Flask connection, need to properly harvard style this.    
